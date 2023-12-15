@@ -1,12 +1,26 @@
+body{
+    margin-top: 100px;
+    background-color:rgb(247, 242, 246)
+}
+ul{
+    padding: 0px;
+    margin-bottom: 0px;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+ul li{
+    border: 0.5px solid rgb(226, 224, 224);
+    list-style: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+}    
+h1{
+    text-align: center;
+    font-size: 75px;
+    color: rgb(240, 184, 238);
+    font-family:'Times New Roman', Times, serif
+}
+input {
+    border: none;
+    width: 100%;
+}
